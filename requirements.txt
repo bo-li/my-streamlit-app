@@ -1,0 +1,5 @@
+streamlit
+streamlit-plotly-events
+rdkit
+pandas
+plotly
