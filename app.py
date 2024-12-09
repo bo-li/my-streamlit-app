@@ -10,7 +10,7 @@ from streamlit_plotly_events import plotly_events
 df = pd.read_csv('./all_2_ener.csv')
 
 # Function to convert SMILES to base64-encoded PNG
-def smiles_to_base64(smiles, size=(300, 300)):
+def smiles_to_base64(smiles, size=(200, 200)):
     mol = Chem.MolFromSmiles(smiles)
     img = Draw.MolToImage(mol, size=size)
     buffer = io.BytesIO()
